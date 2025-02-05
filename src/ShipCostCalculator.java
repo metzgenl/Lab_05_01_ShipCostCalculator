@@ -9,8 +9,9 @@ public class ShipCostCalculator {
     String incorrectInput = "";
 
     public void getShippingCost(){
+        //Declare Scanner
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter the item Price $");
+        System.out.print("Enter the item price: $");
 
         //Check for valid input from user
         if (in.hasNextDouble()){
